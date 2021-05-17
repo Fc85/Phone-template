@@ -1,0 +1,592 @@
+/**************************************** AJOUT DE POLICES ****************************************/
+@font-face {
+    font-family: "Gotham_bold";
+    src: url("../font/Gotham\ Rounded\ Bold.otf");
+   }
+@font-face {
+       font-family: "Gotham_medium";
+       src: url("../font/Gotham\ Rounded\ Medium.otf");
+      }
+@font-face {
+    font-family: "Gotham_book";
+    src: url("../font/Gotham\ Rounded\ Book.otf");
+   }
+
+/**************************************** STYLE GÉNÉRAL ****************************************/
+html, body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/**************************************** HEADER ****************************************/
+header{
+    font-family: "Gotham_bold";
+    height: 99vh;
+    background-image:url("../images/fond_header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu{/*STYLE DU MENU NAV*/
+    font-size: 16pt;
+    width: 80%;
+    margin: 3% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+header article{
+    text-align: center;
+}
+
+header h1{
+    font-size: 36pt;
+}
+
+header h2{ 
+    font-family: "Gotham_medium";
+    font-size: 16pt;
+}
+
+header button{
+    font-family: "Gotham_bold";
+    font-size: 12pt;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    width: 10%;
+    background-color: #16a085;
+    color: white;
+}
+
+header div{
+    width: 7%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#social{/*STYLE DES ICONES DES RESEAUX SOCIAUX*/
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+/**************************************** DEUXIEME SECTION ****************************************/
+#s2{
+    height: 550px;
+    background-color: #f5f6f7;
+    display: flex;
+    justify-content: center;
+}
+
+#s2 article{
+    align-self: center;
+    width: 40%;
+}
+
+#s2 h2{
+    font-family: "Gotham_bold";
+    font-size: 18pt;
+    color: #16a085;
+}
+
+#s2 p{
+    font-family: "Gotham_book";
+    color: #373737;
+    font-size: 12pt;
+}
+
+#s2 button{    
+    font-family: "Gotham_bold";
+    font-size: 12pt;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    width: 35%;
+    background-color: #16a085;
+    color: white;
+}
+
+#hand_phone{/*STYLE DE LA DIV DE L IMAGE*/
+    padding-top: 80px;
+    width: 40%;
+}
+
+#s2 img{
+    width: 100%;
+    height: auto;
+}
+
+/**************************************** TROISIEME SECTION ****************************************/
+#s3{
+    height: 550px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#s3_phone{/*STYLE DE LA DIV DE L IMAGE*/
+    padding-top: 5%;
+    width: 18%;
+}
+
+#s3 img{
+    width: 100%;
+    height: auto;
+}
+
+#s3 article{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: "Gotham_bold";
+    width: 27%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#s3 h2{
+    font-size: 18pt;
+    color: #16a085;
+}
+
+#s3 p{
+    font-family: "Gotham_book";
+    font-size: 12pt;
+    color: #373737;
+}
+
+#s3 button{
+    font-family: "Gotham_bold";
+    font-size: 12pt;
+    border: none;
+    padding: 20px;
+    width: 30%;
+    background-color: #16a085;
+    color: white;
+}
+
+#s3 ul{
+    width: 10%;
+    padding: 0;
+    list-style: none;
+}
+
+#s3_chevrons{/*STYLE DES CHEVRONS ( < > )*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/**************************************** QUATRIEME SECTION ****************************************/
+#s4{
+    height: auto;
+    background-color: #f5f6f7;
+}
+
+#s4_chevrons_div{/*STYLE DE LA DIV DES CHEVRONS*/
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#s4_chevrons{/*STYLE DES CHEVRONS ( < > )*/
+    width: 5%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+#s4_commu{/*STYLE DE LA DIV DU TEXTE ET DES IMAGES*/
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 150px;
+}
+
+#s4 article{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #373737;
+}
+
+#s4 article h2{
+    font-family: "Gotham_bold";
+    font-size: 16pt;
+}
+
+#s4 article p{
+    font-family: "Gotham_book";
+    font-size: 10pt;
+}
+
+/**************************************** CINQUIEME SECTION ****************************************/
+#s5{
+    height: 99vh;
+    background-image:url("../images/mainphone2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#s5 h1{
+    font-family: "Gotham_bold";
+    font-size: 24pt;
+    color: white;
+}
+
+#your_email{/*STYLE FORMULAIRE EMAIL*/
+    display: flex;
+    justify-content: center;
+}
+
+#your_email input[type=email]{
+    font-family: "Gotham_medium";
+    font-size: 16pt;
+    color: #373737;
+    background: white;
+    width: 50%;
+    border: none;
+    padding: 25px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#your_email button {
+    background: #16a085;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 25px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/**************************************** SIXIEME SECTION ****************************************/
+#s6{
+    background-color: #f5f6f7;
+    color: #373737;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#s6 h2{
+    padding-top: 50px;
+    font-family: "Gotham_bold";
+    font-size: 20pt;
+}
+
+#s6 p{
+    padding: 15px;
+    font-family: "Gotham_medium";
+    font-size: 12pt;
+    width: 60%;
+    text-align: center;
+}
+
+#dl_buttons{/*STYLE DE LA DIV DES BOUTONS DE TELECHARGEMENT*/
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#apple_store, #play_store{
+    display: flex;
+    justify-content: center;
+}
+
+#apple_button_text {/*STYLE DU TEXTE DU BOUTON APPLE*/
+    width: 200px;
+    background: #1abc9c;
+    color: white;
+    font-family: "Gotham_bold";
+    font-size: 8pt;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#apple_button_icon {/*STYLE DE L ICONE DU BOUTON APPLE*/
+    background: #16a085;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#ps_button_text {/*STYLE DU TEXTE DU BOUTON PLAY STORE*/
+    width: 200px;
+    background: #1abc9c;
+    color: white;
+    font-family: "Gotham_bold";
+    font-size: 8pt;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#ps_button_icon {/*STYLE DE L ICONE DU BOUTON PLAY STORE*/
+    background: #16a085;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/**************************************** FOOTER ****************************************/
+#footer{
+    display: flex;
+    height: 200px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    color: #373737;
+    font-size: 14pt;
+    font-family: "Gotham_bold";
+}
+
+#footer ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer hr{
+    border: 1px solid #16a085;
+    height: 15px;
+}
+
+
+/**************************************** RESPONSIVE ****************************************/
+@media screen and (max-width: 640px) {
+    
+    /*********************** HEADER ***********************/
+    header{
+        height: 70vh;
+    }
+
+    #menu{/*STYLE DU MENU NAV*/
+        font-size: 10pt;
+    }
+
+    header h1{
+        font-size: 25pt;
+    }
+
+    header h2{ 
+        font-size: 12pt;
+    }
+
+    header button{
+        font-size: 10pt;
+        padding: 15px;
+        width: 25%;
+    }
+
+    header div{
+        width: 15%;
+    }
+
+    #social{/*STYLE DES ICONES DES RESEAUX SOCIAUX*/
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+    }
+
+    /*********************** DEUXIEME SECTION ***********************/
+    #s2{
+        height: 240px;
+        background-color: #f5f6f7;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #s2 h2{
+        font-size: 12pt;
+    }
+    
+    #s2 p{
+        font-size: 8pt;
+    }
+    
+    #s2 button{    
+        font-size: 8pt;
+        padding: 10px;
+        width: 45%;
+    }
+    
+    /**************************************** TROISIEME SECTION ****************************************/
+    #s3{
+        height: 220px;
+    }
+
+    #s3_phone{/*STYLE DE LA DIV DE L IMAGE*/
+        padding-top: 5%;
+        width: 25%;
+    }
+
+    #s3 article{
+        width: 50%;
+    }
+
+    #s3 h2{
+        font-size: 12pt;
+    }
+
+    #s3 p{
+        font-size: 8pt;
+    }
+
+    #s3 button{
+        font-size: 8pt;
+        padding: 10px;
+        width: 45%;
+    }
+
+    #pagination{
+        font-size: 8pt;
+    }
+
+    #s3_chevrons{/*STYLE DES CHEVRONS ( < > )*/
+        font-size: small;
+    }
+
+    /**************************************** QUATRIEME SECTION ****************************************/
+
+    #s4_chevrons_div{/*STYLE DE LA DIV DES CHEVRONS*/
+        padding-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #s4_chevrons{/*STYLE DES CHEVRONS ( < > )*/
+        width: 10%;
+    }
+
+    #s4_commu{/*STYLE DE LA DIV DU TEXTE ET DES IMAGES*/
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+        padding-bottom: 50px;
+    }
+
+    #s4 article{
+        width: 40%;
+    }
+
+    #s4 article h2{
+        font-size: 12pt;
+    }
+
+    #s4 article p{
+        font-size: 8pt;
+    }
+
+    /**************************************** CINQUIEME SECTION ****************************************/
+    #s5{
+        height: 70vh;
+    }
+    
+    #s5 h1{
+        font-size: 18pt;
+    }
+    
+    #your_email input[type=email]{
+        font-size: 8pt;
+        padding: 10px;
+    }
+    
+    #your_email button {
+        font-size: 8pt;
+        padding: 10px;
+    }
+    
+    /**************************************** SIXIEME SECTION ****************************************/
+
+    #s6 h2{
+        padding-top: 50px;
+        font-size: 15pt;
+    }
+
+    #s6 p{
+        font-size: 10pt;
+    }
+
+    #dl_buttons{/*STYLE DE LA DIV DES BOUTONS DE TELECHARGEMENT*/
+        width: 70%;
+    }
+
+    #apple_button_text {/*STYLE DU TEXTE DU BOUTON APPLE*/
+        width: 100px;
+        font-size: 6pt;
+        padding: 10px;
+    }
+
+    #apple_button_icon {/*STYLE DE L ICONE DU BOUTON APPLE*/
+        padding: 10px;
+        font-size: 6pt;
+    }
+
+    #ps_button_text {/*STYLE DU TEXTE DU BOUTON PLAY STORE*/
+        width: 100px;
+        font-size: 6pt;
+        padding: 10px;
+    }
+
+    #ps_button_icon {/*STYLE DE L ICONE DU BOUTON PLAY STORE*/
+        padding: 10px;
+        font-size: 6pt;
+    }
+   
+    /**************************************** FOOTER ****************************************/
+    #footer{
+        height: 100px;
+        font-size: 8pt;
+    }
+
+    #footer hr{
+        border: 1px solid #16a085;
+        height: 10px;
+    }
+} 
